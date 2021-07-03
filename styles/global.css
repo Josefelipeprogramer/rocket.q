@@ -36,3 +36,13 @@ body {
   height: 100vh;
   background: var(--background);
 }
+body,
+button,
+input,
+textarea {
+  /*Intervalo de tamanho*/
+  font-size: clamp(14px, 1.6rem, 2vw);
+
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Poppins', sans-serif;*/
+}
